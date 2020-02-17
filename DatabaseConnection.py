@@ -21,5 +21,5 @@ class DatabaseFacade():
                                              database=self.dbname)
 
 def main():
-  db = DatabaseFacade('mysql', dbname='nfl', host="paine.oak.home",user="tommy",)
+  db = DatabaseFacade('mysql', dbname='sales', host="paine.oak.home",user="tommy",)
   connection = db.connect()
